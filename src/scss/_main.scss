@@ -1,0 +1,191 @@
+body{
+    font-family: $font-family-base;
+    background: #FFFFFF;
+    color: #222222;
+    width: 100% !important;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+img {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    -ms-interpolation-mode: bicubic;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a img {
+    border: none;
+}
+
+.body-wrap {
+    background: $background-color;
+    width: 100%;
+    padding: 10px;
+}
+
+.container {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.main {
+    width: 600px;
+    max-width: 600px !important;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #FFF;
+    border-top: 2px solid $border-color;
+    border-right: 2px solid $border-color;
+    border-bottom: 2px solid $border-color;
+    border-left: 2px solid $border-color;
+    border-collapse: separate;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.main-inner {
+    width: 530px;
+    max-width: 530px !important;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.content-wrap {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.col-logo-text {
+    padding: 0 0 37px;
+    width: 117px;
+    a {
+        display: block;
+    }
+}
+
+.col-logo-image {
+    padding: 0 0 37px;
+    text-align: right;
+}
+
+.logo-text {
+    width: 117px;
+    height: auto;
+}
+
+.logo-image {
+    width: 24px;
+    height: auto;
+}
+
+.title-hello {
+    font-size: 20px;
+    vertical-align: top;
+    font-weight: bold;
+    padding: 0 0 25px;
+}
+
+.content-block {
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: top;
+    padding: 0 0 23px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.spaceBottom {
+    padding-bottom: 23px;
+}
+
+.table-button-wrapper {
+    width: 170px;
+}
+
+.button-wrapper {
+    width: 170px;
+    height: 44px;
+    background-color: $button-background;
+    display: block;
+    color: white;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.inner-button {
+    width: 100%;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 44px;
+    font-family: $font-family-base;
+    color: white;
+    text-decoration: none;
+}
+
+.inner-button span {
+    font-weight: bold;
+    color: $button-text-color;
+}
+
+.footer-email {
+    border-top: 1px solid $footer-border-top-color;
+    padding-top: 15px;
+    font-size: 14px;
+    color: $footer-text-color;
+}
+
+.link-color {
+    color: $link-color;
+}
+
+.footer-content-block {
+    padding-top: 13px;
+    line-height: 18px;
+}
+
+.content-block-left {
+    width: 40px;
+}
+
+.content-block-right {
+    padding-left: 20px;
+}
+
+.image {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.text {
+    font-size: 19px;
+    line-height: 22px;
+    margin: 0;
+}
+
+ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

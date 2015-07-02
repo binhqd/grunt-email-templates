@@ -1,0 +1,16 @@
+---
+layout: default.hbs
+subject: Connect Idea
+---
+                                <tr>
+                                    <td class="title-hello" colspan="2">
+                                        Your idea was related!
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="content-block" colspan="2">
+                                        <a href="\{{rootUrl}}redirect/user/\{{currentUser._id}}" class="link-color">\{{currentUser.name}}</a> related
+                                        &ldquo;<a href="\{{rootUrl}}idea/\{{idea._id}}" class="link-color">\{{idea.title}}</a>&rdquo; to
+                                        &ldquo;<a href="\{{rootUrl}}idea/\{{connectionIdea._id}}" class="link-color">\{{connectionIdea.title}}</a>>&rdquo;
+                                    </td>
+                                </tr>

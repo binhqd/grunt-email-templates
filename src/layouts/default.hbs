@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="{{app.site_description}}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{subject}}</title>
+    <style type="text/css">
+        @media only screen and (max-width: 480px) {
+            .main {width: 100% !important;}
+        }
+    </style>
+</head>
+<body>
+    <table width="100%" cellspacing="0" cellpadding="0" border="0" class="body-wrap">
+        <tr>
+            <td align="center" class="container">
+                <table width="600" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="white" class="main">
+                    <tr>
+                        <td class="content-wrap" align="left">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td align="left">
+                                        <table width="50%" border="0" cellspacing="0" cellpadding="0" align="left" valign="top">
+                                            <tr>
+                                                <td class="col-logo-text" valign="top">
+                                                    <a target="_blank" href="https://www.ideapod.com/">
+                                                        <img src="{{app.logo_text}}" alt="Ideapod" class="logo-text" />
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td align="right">
+                                        <table width="50%" border="0" cellspacing="0" cellpadding="0" align="right" valign="top">
+                                            <tr>
+                                                <td class="col-logo-image" valign="top" align="right">
+                                                    <img src="{{app.logo}}" alt="Ideapod" class="logo-image" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- Begin Content -->
+                                
+                                {{ body }}
+                                
+                                <!-- End content -->
+                                <tr>
+                                    <td class="footer-email" colspan="2">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td class="bold">Sent from Ideapod.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="footer-content-block">This message was sent to <a href="mailto:{{receiver.email}}" class="link-color">{{receiver.email}}</a>. If you don't want to receive these emails in the future, please <a href="#" class="link-color">unsubscribe</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="footer-content-block">{{app.company_address}}</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
